@@ -9,6 +9,8 @@ import {
   CarouselTitle,
   Body,
   Cards,
+  ControllLeft,
+  ControllRight,
   GoLeft,
   GoRight
 } from './styles';
@@ -57,9 +59,9 @@ const Carousel: React.FC<Props> = ({ title, data }) => {
   const clickHandler = (e: React.MouseEvent) => {
     const card = document.querySelector('.cards > div');
     const space = card.clientWidth + 20;
-    const target = e.target! as HTMLElement
+    const target = e.currentTarget! as HTMLElement
 
-    if(target.className.baseVal.includes('left')){
+    if(target.className.includes('left')){
       obj.current.scrollLeft = obj.current.scrollLeft - space
 
     }else{
@@ -95,14 +97,18 @@ const Carousel: React.FC<Props> = ({ title, data }) => {
               ))
             }
           </Cards>
-          <GoLeft
+          <ControllLeft
             onClick={clickHandler}
             className='left'
-          />
-          <GoRight
+          >
+            <GoLeft/>
+          </ControllLeft>
+          <ControllRight
             onClick={clickHandler}
             className='right'
-          />
+          >
+            <GoRight/>
+          </ControllRight>
         </Body>
       </Container>
   );

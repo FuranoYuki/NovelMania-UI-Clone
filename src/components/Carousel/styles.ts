@@ -72,7 +72,7 @@ export const Cards = styled.div`
     scroll-behavior: smooth;
 `;
 
-export const GoLeft = styled(KeyboardArrowLeft)`
+export const ControllLeft = styled.div`
     position: absolute;
     top: 50%;
     left: 0;
@@ -80,19 +80,19 @@ export const GoLeft = styled(KeyboardArrowLeft)`
     width: 50px;
     z-index: 2;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     transform: translateY(-50%);
-
-    font-size: 58px;
-    color: var(--primary);
     background-color: linear-gradient(to left,rgba(0,0,0,0.45),rgba(0,0,0,0));
-
 
     &:hover{
         cursor: pointer;
     }
 `;
 
-export const GoRight = styled(KeyboardArrowRight)`
+export const ControllRight = styled.div`
     position: absolute;
     top: 50%;
     right: 0;
@@ -100,13 +100,25 @@ export const GoRight = styled(KeyboardArrowRight)`
     width: 50px;
     z-index: 2;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     transform: translateY(-50%);
 
-    font-size: 58px;
-    color: var(--primary);
     background-color: linear-gradient(to left,rgba(0,0,0,0.45),rgba(0,0,0,0)) !important;
 
     &:hover{
         cursor: pointer;
     }
+`;
+
+export const GoLeft = styled(KeyboardArrowLeft)`
+    font-size: 58px;
+    fill: var(--primary);
+`;
+
+export const GoRight = styled(KeyboardArrowRight)`
+    font-size: 58px;
+    fill: var(--primary);
 `;
