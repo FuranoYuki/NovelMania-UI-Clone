@@ -1,28 +1,35 @@
 import styled from 'styled-components';
-import { FindInPageSharp } from '../../styles/Icons';
+import { Newspaper } from '../../styles/Icons';
 
 export const Container = styled.div`
     display: flex;
     flex-direction:column;
+    margin: auto;
+    width: 100%;
+    
+    padding: 0 15px;
 
-    margin-top: 50px;
-    margin-bottom: 1rem;
-    padding:0 15px;
-
-    @media(max-width:767px){
-        margin:auto;
-        max-width:540px ;
+    @media(min-width: 576px){
+        max-width: 540px;
     }
 
-    @media(max-width:991px) and (min-width:768px){
-        margin:auto;
-        max-width:720px;
+    @media(min-width: 768px){
+        max-width: 720px;
+    }
+
+    @media(min-width: 992px){
+        max-width: 960px;
+    }
+
+    @media(min-width: 1200px){
+        max-width: 1140px;
     }
 `;
 
 export const Header = styled.div`
     display: flex;
     align-items: center;
+    padding: 0 15px;
 
     font-size: 28px;
     font-weight: 300;
@@ -32,16 +39,43 @@ export const Header = styled.div`
     }
 `;
 
-export const NewsIcon = styled(FindInPageSharp)`
+export const NewsIcon = styled(Newspaper)`
     height: 30px !important;
     width: 30px !important;
 `;
 
 export const LastNews = styled.div`
-    @media(min-width:500px){
-        &::nth-child(1){
-            width: 50%!important;
+    @media(min-width: 768px){
+        display: flex;
+    }
+`;
+
+export const PrimaryNews = styled.div`
+    display: flex;
+
+    @media(min-width: 768px){
+        width: 50%;
+        padding: 0 15px;
+
+        > div {
+            flex-direction: column;
+            height: 300px;
+
+            > *:first-child{
+                width: 100%;
+                height: 190px;
+            }
         }
+    }
+`;
+
+export const SecondaryNews = styled.div`
+    display: flex;
+    flex-direction: column;
+
+    @media(min-width: 768px){
+        width: 50%;
+        padding: 0 15px;
     }
 `;
 

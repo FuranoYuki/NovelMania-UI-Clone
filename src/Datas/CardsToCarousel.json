@@ -1,0 +1,226 @@
+{
+    "news": [
+        {
+            "title": "Occultic;Nine",
+            "imgSrc": "/Carousel/new/novel-1.jpg",
+            "views": "989",
+            "id": "1"
+        },
+        {
+            "title": "Bungou Stray Dogs: A História Não Contada da Fundação da Agência de Detetives",
+            "imgSrc": "/Carousel/new/novel-2.jpg",
+            "views": "989",
+            "id": "2"
+        },
+        {
+            "title": "Você é a Minha Gloria",
+            "imgSrc": "/Carousel/new/novel-3.jpg",
+            "views": "989",
+            "id": "3"
+        },
+        {
+            "title": "A Filha do Senho da Guerra",
+            "imgSrc": "/Carousel/new/novel-4.jpg",
+            "views": "989",
+            "id": "4"
+        },
+        {
+            "title": "A Saga do Espadachim Marombeiro: Sobrevivendo no Outro Mundo só com Músculos",
+            "imgSrc": "/Carousel/new/novel-5.jpg",
+            "views": "989",
+            "id": "5"
+        },
+        {
+            "title": "Os Piores Aventureiros Salvarão o Mundo",
+            "imgSrc": "/Carousel/new/novel-6.jpg",
+            "views": "989",
+            "id": "6"
+        },
+        {
+            "title": "Hiderman",
+            "imgSrc": "/Carousel/new/novel-7.jpg",
+            "views": "989",
+            "id": "7"
+        },
+        {
+            "title": "Upando com as Divindades",
+            "imgSrc": "/Carousel/new/novel-8.jpg",
+            "views": "989",
+            "id": "8"
+        },
+        {
+            "title": "A Vingança do Curandeiro: Agora é a Minha Vez de Foder com Vocês",
+            "imgSrc": "/Carousel/new/novel-9.jpeg",
+            "views": "989",
+            "id": "9"
+        },
+        {
+            "title": "O Druida Lendário",
+            "imgSrc": "/Carousel/new/novel-10.jpg",
+            "views": "989",
+            "id": "10"
+        }
+    ],
+    "popular": [
+        {
+            "title": "A Caixa Vazia e a Zerézima Maria",
+            "imgSrc": "/Carousel/Popular/novel-1.jpg",
+            "views": "989",
+            "id": "1"
+        },
+        {
+            "title": "A Ascensão do Herói do Escudo",
+            "imgSrc": "/Carousel/Popular/novel-2.jpg",
+            "views": "989",
+            "id": "2"
+        },
+        {
+            "title": "Deus Marcial do Espaço",
+            "imgSrc": "/Carousel/Popular/novel-3.jpg",
+            "views": "989",
+            "id": "3"
+        },
+        {
+            "title": "Arena",
+            "imgSrc": "/Carousel/Popular/novel-4.jpg",
+            "views": "989",
+            "id": "4"
+        },
+        {
+            "title": "Cheat do Crescimento",
+            "imgSrc": "/Carousel/Popular/novel-5.jpg",
+            "views": "989",
+            "id": "5"
+        },
+        {
+            "title": "A Dança das Lâminas das Elementalistas",
+            "imgSrc": "/Carousel/Popular/novel-6.jpg",
+            "views": "989",
+            "id": "6"
+        },
+        {
+            "title": "A Garota que Comeu a Morte",
+            "imgSrc": "/Carousel/Popular/novel-7.jpg",
+            "views": "989",
+            "id": "7"
+        },
+        {
+            "title": "Necromante da Estação de Seul",
+            "imgSrc": "/Carousel/Popular/novel-8.jpg",
+            "views": "989",
+            "id": "8"
+        },
+        {
+            "title": "Jovens são Problema até em Outro Mundo!",
+            "imgSrc": "/Carousel/Popular/novel-9.png",
+            "views": "989",
+            "id": "9"
+        }
+    ],
+    "original": [
+        {
+            "title": "Velho Mestre",
+            "imgSrc": "/Carousel/Original/novel-1.png",
+            "views": "175k",
+            "id": "1"
+        },
+        {
+            "title": "Destino Elementar",
+            "imgSrc": "/Carousel/Original/novel-2.jpg",
+            "views": "81,8k",
+            "id": "2"
+        },
+        {
+            "title": "Soul Eye",
+            "imgSrc": "/Carousel/Original/novel-3.png",
+            "views": "275k",
+            "id": "3"
+        },
+        {
+            "title": "Ronan",
+            "imgSrc": "/Carousel/Original/novel-4.jpg",
+            "views": "53,6k",
+            "id": "4"
+        },
+        {
+            "title": "Fenrir",
+            "imgSrc": "/Carousel/Original/novel-5.jpg",
+            "views": "80,2k",
+            "id": "5"
+        },
+        {
+            "title": "Dominação Ancestral ",
+            "imgSrc": "/Carousel/Original/novel-6.png",
+            "views": "102k",
+            "id": "6"
+        },
+        {
+            "title": "A Lâmina da Imortalidade",
+            "imgSrc": "/Carousel/Original/novel-7.png",
+            "views": "32,9k",
+            "id": "7"
+        },
+        {
+            "title": "A voz da Névoa",
+            "imgSrc": "/Carousel/Original/novel-8.png",
+            "views": "9,66k",
+            "id": "8"
+        }
+    ],
+    "recommendation": [
+        {
+            "title": "Douluo Dalu",
+            "imgSrc": "/Carousel/Recommendation/novel-1.jpg",
+            "views": "782k",
+            "id": "1"
+        },
+        {
+            "title": "Ziqin",
+            "imgSrc": "/Carousel/Recommendation/novel-2.jpg",
+            "views": "5,41k",
+            "id": "2"
+        },
+        {
+            "title": "Trigo e Loba",
+            "imgSrc": "/Carousel/Recommendation/novel-3.jpg",
+            "views": "13,9k",
+            "id": "3"
+        },
+        {
+            "title": "O Lixo da Família do Conde",
+            "imgSrc": "/Carousel/Recommendation/novel-4.jpg",
+            "views": "24,3k",
+            "id": "4"
+        },
+        {
+            "title": "Deus do Crime",
+            "imgSrc": "/Carousel/Recommendation/novel-5.png",
+            "views": "247k",
+            "id": "5"
+        },
+        {
+            "title": "Imperador Primordial",
+            "imgSrc": "/Carousel/Recommendation/novel-6.jpg",
+            "views": "422k",
+            "id": "6"
+        },
+        {
+            "title": "E daí que sou uma Aranha?",
+            "imgSrc": "/Carousel/Recommendation/novel-7.jpg",
+            "views": "41,3k",
+            "id": "7"
+        },
+        {
+            "title": "All You Need Is Kill",
+            "imgSrc": "/Carousel/Recommendation/novel-8.jpg",
+            "views": "6,62k",
+            "id": "8"
+        },
+        {
+            "title": "O Retorno do Herói ~ Maou, Junte-se a mim em Minha Vingança ~",
+            "imgSrc": "/Carousel/Recommendation/novel-9.jpg",
+            "views": "187k",
+            "id": "9"
+        }
+    ]
+}

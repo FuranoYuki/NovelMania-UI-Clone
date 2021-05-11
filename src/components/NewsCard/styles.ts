@@ -6,10 +6,9 @@ export const Container = styled.div`
   display:flex;
   justify-content:space-between;
   width:100%;
-  max-height:510px;
-  margin:10px 0;
-
+  margin:5px 0;
   overflow: hidden;
+
   border-radius:8px;
   box-shadow:0 3px 7px rgba(0,0,0,.25),0 4px 10px rgba(0,9,128,.035);
 
@@ -17,21 +16,35 @@ export const Container = styled.div`
       cursor: pointer;
       background-color:var(--white-hover);
   }
+
+    @media(min-width: 768px){
+    }
+
+    @media(min-width: 992px){
+    }
+
+    @media(min-width: 1200px){
+    }
 `;
 
 export const ImageBox = styled.div`
     position: relative;
-    min-width: 120px;
-    width: 33%;
-    overflow:hidden;
+    width: 33.3%;
+    flex-shrink: 0;
+    overflow: hidden;
 `;
 export const Body = styled.div`
     display: flex;
     flex-direction:column;
-    padding: 15px;
+    padding: 8px;
+    flex-grow: 1;
+
+    @media(min-width: 576px){
+        padding: 16px;
+    }
 `;
 export const Title = styled.div`
-    font-size: 16px;
+    font-size: 15px;
     color:var(--text-black);
     font-weight:600;
 
@@ -43,13 +56,17 @@ export const Title = styled.div`
         margin: 5px 0;
         width: 100px;
     }
+
+    @media(min-width: 576px){
+        font-size: 16px;
+    }
 `;
 export const Info = styled.div`
     display: flex;
     align-items: center;
     margin-top: 10px;
     
-    font-size: 12px;
+    font-size: 11px;
     color:#777;
     font-family: 'Open Sans';
 

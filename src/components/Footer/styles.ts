@@ -30,7 +30,7 @@ export const Info = styled.div`
         padding: 0 15px;
     }
 
-    div:not(:last-child){
+    > div:not(:last-child){
         margin-bottom: 1.5rem;
     }
 
@@ -72,12 +72,6 @@ export const Social = styled.div`
         letter-spacing: 3px;
         width: 100%;
         text-align: center;
-    }
-
-    @media(min-width: 768px){
-        > span {
-            text-align:right;
-        }
     }
 `;
 export const LogoBox = styled.div`
@@ -142,9 +136,9 @@ export const InfoSub = styled.div`
     }
 
     > span {
-        font-size: 1rem;
+        font-size: 16px;
         text-align: center;
-        line-height: 1.5;
+        line-height: 1.8;
         width: 100%;
     }
 

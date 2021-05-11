@@ -18,6 +18,7 @@ export default createGlobalStyle`
     --gray: #82849f;
     --dark-blue:#0056b3;
     --blue:#36f;
+    --yellow-star: #ffc107;
   }
 
   body {

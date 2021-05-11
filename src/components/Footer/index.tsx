@@ -48,12 +48,11 @@ const Footer: React.FC = () => {
             </InfoSub>
             <InfoSub>
                 <strong>WebNovel</strong>
-                <span>Noticias</span>
-                <span>Editoria</span>
-                <span>Doacoes</span>
-                <span>Regras Setorias</span>
-                <span>Politicas de Privacidade</span>
-                <span>Contato</span>
+                <span>Chinesa</span>
+                <span>Japonesa</span>
+                <span>Coreana</span>
+                <span>Brasileira</span>
+                <span>Americana</span>
             </InfoSub>
             <InfoSub>
                 <strong>Doacoes</strong>

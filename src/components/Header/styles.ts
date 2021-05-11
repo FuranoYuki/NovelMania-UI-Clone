@@ -1,26 +1,26 @@
 import styled, { css } from 'styled-components';
 import  {
-    MenuBookSharp,
-    HomeSharp,
-    ReceiptSharp,
-    DraftsSharp,
+    Home, 
+    JournalWhills,
+    FileSignature,
+    EnvelopeOpenText,
     AccountCircleSharp,
     MenuSharp
 } from '../../styles/Icons'
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
 
-  width: 100%;
-  max-height: 60px;
-  box-shadow: 0 0 20px -9px rgba(0,0,0,.82);
-  border: 1px solid #dedede;
+    width: 100%;
+    max-height: 60px;
+    box-shadow: 0 0 20px -9px rgba(0,0,0,.82);
+    border: 1px solid #dedede;
 
-  overflow: hidden;
-
-  transition: max-height .5s;
-
+    font-family: 'Open Sans';
+    overflow: hidden;
+    transition: max-height .5s;
 `;
 
 export const Navbar = styled.div`
@@ -28,7 +28,7 @@ export const Navbar = styled.div`
     padding: 0 max(20px, 2rem);
     align-items: center;
     width: 100%;
-    height: 60px;
+    min-height: 60px;
 
     @media(max-width: 500px){
         padding: 0 0;
@@ -73,9 +73,9 @@ export const MenuIcon = styled.div`
     }
 
     > span {
-        font-size: 15px;
+        font-size: 16px;
+        line-height: 24px;
         margin-left: 4px;
-        font-weight: 400;
     }
 
     @media(max-width: 1000px){
@@ -84,20 +84,20 @@ export const MenuIcon = styled.div`
 `;
 
 const IconCss = css`
-    width: 20px !important; 
-    height: 20px !important;
+    width: 17.5px; 
+    height: 17.5px;
 `;
 
-export const HomeIcon = styled(HomeSharp)`
+export const HomeIcon = styled(Home)`
     ${IconCss}
 `;
-export const BookIcon = styled(MenuBookSharp)`
+export const BookIcon = styled(JournalWhills)`
     ${IconCss}
 `;
-export const EditIcon = styled(ReceiptSharp)`
+export const EditIcon = styled(FileSignature)`
     ${IconCss}
 `;
-export const MailIcon = styled(DraftsSharp)`
+export const MailIcon = styled(EnvelopeOpenText)`
     ${IconCss}
 `;
 
@@ -132,7 +132,7 @@ export const MenuControll = styled(MenuSharp)`
 `;
 
 export const PerfilBox = styled.div`
-    height: 100%;
+    height: 60px;
     width: 60px;
 
     display: flex;
